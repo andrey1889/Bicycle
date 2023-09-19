@@ -1,0 +1,25 @@
+.layout{
+    min-height: 100vh;
+    background-color: black;
+}
+
+.layout__header{
+    background-color:gray;
+}
+
+.layout__main{
+background-color:gray;
+
+}
+
+.layout__footer{
+background-color: transparent;
+
+}
+
+.layout__content{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 360px;
+    padding-right: 360px;
+}
