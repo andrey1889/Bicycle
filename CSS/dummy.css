@@ -1,7 +1,8 @@
-.dummy{
-    border: 2px dashed black;
-    background-color: white;
-    font-weight: 900;
+.dummy {
+    border: 2px dashed red;
+    background-color: transparent;
+    font-weight: normal;
+    font-size: 14;
     color: black;
     display: flex;
     align-items: center;

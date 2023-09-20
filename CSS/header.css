@@ -1,0 +1,56 @@
+.header {
+padding-top: 3px;
+padding-bottom: 41px;
+
+}
+
+.header__content{
+    display: flex;
+    align-items: center;
+}
+
+.header__navigation{
+    display: block;
+     margin-right: 453px;
+   
+}
+
+.header__links{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.header__link:not(:last-of-type){
+    margin-right: 50px;
+}
+
+.header__link:nth-child(2){
+margin-right: 32px;
+
+}
+
+
+
+.header__content img{
+display: block;
+margin-left: 360px;
+margin-right: 543px;
+}
+
+.header__link a {
+text-decoration: none;
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+color: black;
+}
+
+.header__link--active a{
+
+    padding: 42px 20px 41px 18px;
+    background-color: black;
+    color: white;
+}
