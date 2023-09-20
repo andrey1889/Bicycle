@@ -1,0 +1,76 @@
+.footer__content {
+  padding: 21px 360px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer__confidentiality {
+  width: 185px;
+  margin-right: 373px;
+}
+
+.footer__confidentiality > a {
+  color: white;
+  font-family: "Inter";
+  font-size: 12px;
+  line-height: normal;
+  font-weight: 400;
+  text-decoration: underline;
+  text-transform: lowercase;
+  white-space: nowrap;
+}
+
+.footer__social-group {
+  display: flex;
+  margin-right: 373px;
+}
+
+.foter__social__links {
+  display: flex;
+}
+
+.footer__social__link {
+  display: flex;
+  margin-right: 28px;
+}
+
+.footer__contacts {
+  display: block;
+  color: white;
+  flex-direction: column;
+}
+
+.footer_contact--phone {
+  color: white;
+  font-family: "Inter";
+  font-size: 12px;
+  line-height: normal;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: lowercase;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer_contact--phone > img {
+  margin-right: 10px;
+}
+
+.footer__contact--email {
+  color: white;
+  font-family: "Inter";
+  font-size: 12px;
+  line-height: normal;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: lowercase;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer__contact--email > img {
+  margin-right: 10px;
+}
