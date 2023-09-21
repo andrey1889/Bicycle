@@ -4,3 +4,11 @@
     box-sizing: border-box;
     outline: none;
 }
+body{
+font-family: "Inter", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16.8px;
+}
+
