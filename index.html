@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../Bicycle/CSS/reset.css" />
     <link rel="stylesheet" href="../Bicycle/CSS/layout.css" />
-    <link rel="stylesheet" href="../Bicycle/CSS/dummy.css" />
     <link rel="stylesheet" href="../Bicycle/CSS/header.css" />
     <link rel="stylesheet" href="../Bicycle/CSS/main.css">
     <link rel="stylesheet" href="../Bicycle/CSS/footer.css" />
+    <link rel="stylesheet" href="../Bicycle/CSS/info.css">
+   <link rel="stylesheet" href="../Bicycle/CSS/button.css">
     <title>Document</title>
   </head>
   <body>
@@ -27,8 +28,7 @@
                 <ul class="header__links">
                   <li class="header__link"><a href="#">Описание</a></li>
                   <li class="header__link"><a href="#">Характеристики</a></li>
-                  <li class="header__link header__link--active">
-                    <a href="#">Стоимость</a>
+                  <li class="header__link header__link--active"><a href="#">Стоимость</a>
                   </li>
                 </ul>
               </nav>
@@ -40,7 +40,78 @@
         <div class="layout__content">
           <main class="main">
             <div class="main__content">
-          <section class="main__section">S</section>
+          <section class="main__section">
+
+            <div class="info">
+              <div class="info__top">
+              <div class="info__title">
+                  <h1 class="info__name-of-the-bike">Xiaomi Himo C26</h1>
+              </div>
+              <div class="info__subtitle">
+                  <h2 class="info__description">Электрический велосипед</h2>
+              </div>
+              <div class="info__text">
+                  <h3 class="info__slogan">Полная свобода передвижения и надежный транспорт для
+                      путешествий на любые расстояния</h3>
+                  <p class="info__presentation">HIMO C26 – это новый электровелосипед от Xiaomi, который
+                      создан как для езды по городу,
+                      так и бездорожью. Он <br> имеет мощный двигатель и емкий аккумулятор, благодаря которым
+                      способен проезжать на одном заряде до
+                      100 км, что определенно выше, чем у большинства конкурентов. А большие колеса с
+                      пневматическими шинами, дисковые тормоза,
+                      7-скоростная трансмиссия и эргономичное<br> сидение делают каждую поездку гораздо
+                      приятнее.</p>
+    </div>
+  </div>
+
+  <div class="info__low">
+    <div class="main__button">
+      <button class="button" type="submit">Заказать</button>
+    </div>
+    
+
+<table class="info__bike-indicators">
+<thead class="info__bike-indicator">
+<tr class="row" >
+    <th  class="row__power_reserve" >До 100 км</th>
+    <th class="row__speed">25 км/ч</th>
+    <th class="row__number-of-modes">3 режима езды</th>
+    <th class="row__weight">25 кг</th>
+</tr>
+</thead>
+<tr class="row">
+<td class="row__power_reserve">Запас хода</td>
+<td class="row__speed">Макс корость</td>
+<td class="row__number-of-modes">механический, гибридный,<br> электрический</td>
+<td class="row__weight">вес</td>
+</tr>
+</table>
+             
+      </div>
+      <div class="slider-top">
+        <div class="slides">
+       <input type="radio" name="r" id="r1" checked>
+       <input type="radio" name="r" id="r2">
+       <input type="radio" name="r" id="r3">
+       <input type="radio" name="r" id="r4">
+       
+       <div class="control">
+         <label for="r1" class="bar"></label>
+         <label for="r2"  class="bar"></label>
+         <label for="r3"  class="bar"></label>
+         <label for="r4"  class="bar"></label>
+       </div>
+        <div class="slide s1"><img src="../Bicycle/images/main/info/1.png" alt=""></div>
+        <div class="slide s2"><img src="../Bicycle/images/main/info/2.png" alt=""></div>
+        <div class="slide s3"><img src="../Bicycle/images/main/info/3.png" alt=""></div>
+        <div class="slide s4"><img src="../Bicycle/images/main/info/4.png" alt=""></div>
+       </div>
+       </div>        
+        </div>
+      </section>
+</div>
+</div>
+
           <section class="main__section">S</section>
           <section class="main__section">S</section>
           <section class="main__section">S</section>
@@ -48,9 +119,7 @@
           </main>
         </div>
         </div>
-
       <div class="layout__footer">
-        
           <footer class="footer">
             <div class="layout__content">
               <div class="footer__content">
