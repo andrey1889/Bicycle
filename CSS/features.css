@@ -1,0 +1,32 @@
+.features__content{
+  position: relative;
+}
+
+
+.features__list {
+  margin-left: 630px;
+}
+
+.features__item {
+  margin-bottom: 50px;
+}
+
+.features__item > h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+
+}
+
+.features__item > p {
+  display: inline-block;
+  font-size: ;
+  width: 450px;
+}
+
+.features__image {
+  position: absolute;
+  top:0;
+}

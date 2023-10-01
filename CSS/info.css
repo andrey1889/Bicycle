@@ -1,3 +1,21 @@
+
+.main__section{
+  margin: 0;
+  margin-bottom: 150px;
+}
+.info {
+
+  height: 653px;
+}
+
+.info__content{
+  margin-bottom: 150px;
+}
+
+.info__top{
+  position: relative;
+
+}
 .info__title > h1 {
   margin-top: 72px;
   font-size: 64px;
@@ -13,7 +31,9 @@
 }
 
 .info__text {
-  width: 420px;
+  display: flex;
+  flex-direction: column;
+  width: 539px;
   margin-bottom: 80px;
 }
 .info__slogan {
@@ -23,7 +43,10 @@
 
 .info__presentation {
   margin-bottom: 107px;
+  width: 420px;
 }
+
+
 
 .info__low {
   display: flex;
@@ -34,17 +57,20 @@
 .main__button {
   margin-top: -27px;
   margin-right: 215px;
+  
 }
+
 
 .info__bike-indicators {
   width: 500px;
   height: 53px;
+  margin-right: 65px;
 }
 
 .row > th {
   padding-right: 66px;
   text-transform: uppercase;
-  text-align: start;
+  text-align: center;
   padding: 0;
   margin: 0;
 }
@@ -52,19 +78,25 @@
 .row td {
   text-transform: lowercase;
   font-size: 12px;
+  padding-top: 13px;
+  text-align: center;
+}
+
+ .row__number-of-modes {
+  padding: 0;
+  padding-top: 5px;
 }
 
 .slider-top {
+  position: absolute;
   margin: 0;
   padding: 0;
-
-  position: relative;
-
   width: 630px;
   height: 525px;
   overflow: hidden;
-  top: -580px;
-  left: 50%;
+  top: 0;
+  left: 45%;
+
 }
 
 .slides {
@@ -75,7 +107,7 @@
 
 .slide {
   width: 25%;
-  transition: all 0.6s ease;
+  transition: all 0.1s ease-in;
 }
 
 .control {
@@ -90,11 +122,12 @@
   height: 25px;
   background-color: #131313;
   margin: 6px;
-  left: 600px;
+  left: 620px;
   border-radius: 7px;
   transition: all 0.4s ease;
   z-index: 100;
   opacity: 0.9;
+ 
 }
 
 .slide > img {
