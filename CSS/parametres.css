@@ -1,0 +1,50 @@
+.parametres {
+  position: relative;
+  margin-right: 60px;
+}
+.parametres > h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 42px;
+  position: relative;
+}
+
+.parametres__table th {
+  text-align: start;
+  background-color: black;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 3px;
+  padding-top: 2px;
+}
+
+.parametres__table {
+  width: 570px;
+  height: 730px;
+}
+
+.parametres__row td {
+  padding-bottom: 5px;
+}
+
+.parametres__row:first-child td {
+  padding-top: 13px;
+}
+
+.parametres__row:last-child td {
+  padding-bottom: 32px;
+}
+
+.parametres__name {
+  vertical-align: sub;
+}
+
+.parametres__image {
+  position: absolute;
+  left: 60%;
+  top: 24%;
+}
