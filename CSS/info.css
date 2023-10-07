@@ -119,7 +119,7 @@
 .bar {
   position: relative;
   width: 3px;
-  height: 25px;
+  height: 30px;
   background-color: #131313;
   margin: 6px;
   left: 620px;
@@ -137,6 +137,7 @@
 }
 .bar:hover {
   background-color: #ff4040;
+  width: 100%;
 }
 
 input[name="r"] {

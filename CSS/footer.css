@@ -19,18 +19,26 @@
   white-space: nowrap;
 }
 
+.footer__confidentiality > a:hover{
+  opacity: 0.5;
+}
+
 .footer__social-group {
   display: flex;
   margin-right: 373px;
 }
 
-.foter__social__links {
+.foter__social-links {
   display: flex;
 }
 
-.footer__social__link {
+.footer__social-link {
   display: flex;
   margin-right: 28px;
+}
+
+.foter__social-links a:hover {
+ opacity: 0.5;
 }
 
 .footer__contacts {
