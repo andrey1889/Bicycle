@@ -1,6 +1,7 @@
 .layout {
   min-height: 100vh;
   background-color:white;
+  margin: 0 auto;
  
 }
 
@@ -19,8 +20,7 @@
 
 .layout__content {
 
-  margin-left: auto;
-  margin-right: auto;
+  margin:0 auto;
   padding-left: 20px;
   padding-right: 20px;
   max-width: 1920px;
